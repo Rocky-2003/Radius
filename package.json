@@ -1,0 +1,14 @@
+{
+  "name": "radius",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "author": "Rocky",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+}
