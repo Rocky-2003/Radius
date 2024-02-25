@@ -35,9 +35,10 @@ a:link, a:visited {
 
 .link-secondary {
   color: #221e20;
+  letter-spacing: -.32px;
   font-family: Monrope, sans-serif;
   font-size: 1.6rem;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.6rem;
   text-decoration: none;
 }
@@ -65,6 +66,7 @@ a:link, a:visited {
 }
 
 .nav-lists {
+  cursor: pointer;
   list-style: none;
 }
 
@@ -77,7 +79,7 @@ a:link, a:visited {
   font-style: normal;
 }
 
-.address a {
+.address a:link, .address:visited {
   color: #221e20;
   font-size: 1.6rem;
   font-weight: 600;
@@ -116,8 +118,9 @@ a:link, a:visited {
   font-weight: 300;
 }
 
-.hero-para {
-  width: 52rem;
+.hero-bottom--content {
+  width: 51rem;
+  display: block;
 }
 
 .hero-link {
