@@ -23,6 +23,7 @@ Defalult: 1.6rem
 #FFFFFF
 
 ------ Shades: (BASICALLY LIGHTER VERSIONS) #828282
+#d7d7d7
 
 ----- Accents:
 
@@ -63,6 +64,40 @@ body {
 /* !-------------------------------- */
 /* !GENERAL CLASSES */
 /* !-------------------------------- */
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.make-flex {
+  display: flex;
+  align-items: center;
+}
+
+.gap1 {
+  gap: 1rem;
+}
+
+.dot-dot {
+  height: 0.5rem;
+  width: 0.5rem;
+  background-color: #221e20;
+  border-radius: 50%;
+}
+
 .container {
   padding: 0 2.4rem;
 }
@@ -75,11 +110,24 @@ a:visited {
 .heading-secondary {
   font-size: 2rem;
   line-height: 3.2rem;
+  font-weight: 500;
+}
+
+.heading-tertiary {
+  font-size: 7.4rem;
+  line-height: 8.6rem;
+  letter-spacing: -4.32px;
+  font-weight: 400;
 }
 
 .paragraph-secondary {
   font-size: 1.6rem;
   line-height: 2.8rem;
+}
+
+.paragraph-tertiary {
+  font-size: 1.4rem;
+  line-height: normal;
 }
 
 .link-secondary {
@@ -183,4 +231,42 @@ a:visited {
 
 .hero-link {
   width: 8rem;
+}
+
+/* !-------------------------------- */
+/* !ADVANTAGE SECTION */
+/* !-------------------------------- */
+.section-advantages--margin {
+  width: 104rem;
+  margin: 18rem auto;
+}
+
+.advantages-info {
+  flex-direction: column;
+  align-items: start;
+}
+
+.section-adv-marg {
+  margin-bottom: 2rem;
+}
+
+.advantages-grid-contents {
+  border-top: 0.5px solid #cfcfcf;
+  margin: 10rem 0;
+  padding: 6rem 0;
+}
+
+.gird-colm:nth-child(4) {
+  margin-top: 6rem;
+}
+.gird-colm:nth-child(5) {
+  margin-top: 6rem;
+}
+.gird-colm:nth-child(6) {
+  margin-top: 6rem;
+}
+
+.section-advan-para {
+  color: #828282;
+  margin-top: 2rem;
 }
