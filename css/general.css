@@ -66,6 +66,36 @@ body {
 /* !GENERAL CLASSES */
 /* !-------------------------------- */
 
+.common-hero-club p {
+  margin: 2rem 0;
+  font-weight: 300;
+}
+
+.common-template-hero-club {
+  padding: 7.8rem;
+  margin-top: 1.6rem;
+  height: 92rem;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.text-down-img {
+  margin-top: 2rem;
+  letter-spacing: -0.32px;
+  font-weight: 600;
+}
+
+.brand-header {
+  margin: 9.6rem 7.8rem 0 7.8rem;
+  padding: 6.6rem 0;
+}
+
+.brand-head-margin {
+  margin-bottom: 5rem;
+}
+
 .grid {
   display: grid;
   gap: 1.5rem;

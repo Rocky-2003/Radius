@@ -71,20 +71,8 @@
 }
 
 .hero-bottom {
-  /* display: inline-block; */
-  padding: 7.8rem;
-  margin-top: 1.6rem;
   height: 92rem;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
   background-image: url(../img/hero/asset\ 3.webp);
-}
-
-.hero-bottom p {
-  margin: 2rem 0;
-  font-weight: 300;
 }
 
 .hero-bottom--content {
@@ -289,10 +277,6 @@
 /* !-------------------------------- */
 /* !LANDMARK SECTION*/
 /* !-------------------------------- */
-.landmark-header {
-  margin: 9.6rem 7.8rem 0 7.8rem;
-  padding: 6.6rem 0;
-}
 
 .landmark-count {
   height: 39rem;
@@ -411,12 +395,6 @@
   transform: scale(110%);
 }
 
-.text-down-img {
-  margin-top: 2rem;
-  letter-spacing: -0.32px;
-  font-weight: 600;
-}
-
 .apropriate-middle-img {
   width: 125rem;
   overflow: hidden;
@@ -441,6 +419,107 @@
 
 .bottom-house-img:hover {
   filter: grayscale(0%);
-  /* transform: scaleX(175%); */
   transform: scale3d(175%, 105%, 1%);
+}
+
+.all-obj-btn {
+  background-color: #221e20;
+  width: 70rem;
+  margin: 9.6rem auto;
+  overflow: hidden;
+}
+
+.all-obj-btn button {
+  transition: all 0.3s;
+  color: #fff;
+  font-size: 1.8rem;
+  border: none;
+  background-color: transparent;
+}
+
+.all-obj-btn:hover {
+  background-color: #272727;
+}
+
+.all-obj-btn:hover button {
+  transform: scale(110%);
+}
+
+/* !-------------------------------- */
+/* !Partner SECTION*/
+/* !-------------------------------- */
+.brand-logos {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+
+  padding: 9.6rem 14.6rem 19.2rem 14.6rem;
+
+  border-bottom: 1px solid #c9c7c7;
+}
+
+.gap-in-brand {
+  padding-bottom: 8rem;
+  gap: 10rem;
+  align-items: center;
+  border-bottom: 1px solid #c9c7c7;
+}
+
+.gap-in-brand img {
+  filter: brightness(0%);
+  opacity: 20%;
+  transition: all 0.5s;
+}
+
+.gap-in-brand img:hover {
+  opacity: 100%;
+  filter: grayscale(0%);
+}
+
+/* !-------------------------------- */
+/* !Real Estate Agent sectoin */
+/* !-------------------------------- */
+
+.happy-costumers {
+  margin: 9.6rem 0;
+  grid-row-gap: 6rem;
+  grid-column-gap: 2rem;
+}
+
+.hpy-costumer-img {
+  width: 100%;
+}
+
+.hpy-costumer-small {
+  color: #828282;
+}
+
+.arrow-real-estate {
+  text-align: center;
+  padding-bottom: 9.6rem;
+}
+
+.arrow-real-estate button {
+  font-size: 3rem;
+  font-weight: 700;
+  transition: all 0.4s ease-in-out;
+  height: 9.8rem;
+  width: 9.8rem;
+  border-radius: 50%;
+  border: 1px solid #c9c7c7;
+  background-color: #fff;
+}
+
+.arrow-real-estate button:hover {
+  color: #fff;
+  background-color: #221e20;
+}
+
+/* !-------------------------------- */
+/* !CLUB HOUSE SECTION */
+/* !-------------------------------- */
+.club-bottom {
+  background-image: url(../img/club-house/asset\ 32.webp);
+  height: 110rem;
+  background-size: auto;
 }
