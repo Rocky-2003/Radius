@@ -44,9 +44,6 @@ export default function scrollEffect(values, type) {
 
   const observer = new IntersectionObserver(handleIntersection, option);
 
-  // Select all divs with class landmark-count
-  // const landmarkCounts = document.querySelectorAll(".landmark-count");
-
   window.addEventListener("scroll", () => {
     values.forEach((landmarkCount) => {
       observer.observe(landmarkCount);

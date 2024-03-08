@@ -1,6 +1,7 @@
 "use strict";
 import scrollEffect from "./scrollEffectSection.js";
 import scrollToView from "./smoothScrool.js";
+import lazyLoading from "./lazyLoadingImage.js";
 
 let links = document.querySelectorAll(".head-link");
 let targets = document.querySelectorAll(".landmark-count");
@@ -21,3 +22,6 @@ links.forEach((link) => {
     console.log("hello");
   });
 });
+
+// * lazy loading image
+lazyLoading();
