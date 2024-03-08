@@ -3,21 +3,35 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" defer=""></script>
+
+    <link rel="stylesheet" href="/index.c1ccc107.css">
     <link rel="stylesheet" href="/index.b2625c6b.css">
-    <title>Radius</title>
+    <link rel="shortcut icon" href="/top.46f161cc.jpg" type="image/x-icon">
+    <title>Radius BD - Webflow</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="header">
       <img src="/asset%200.70d21ff7.svg" alt="Brand logo" class="brand-logo">
       <nav class="nav-bar">
         <ul class="nav-lists">
-          <li><a class="nav-list-item link-secondary" href="#">About us</a></li>
-          <li><a class="link-secondary" href="#">Catalog</a></li>
-          <li><a class="link-secondary" href="#">Contacts</a></li>
-          <li><a class="link-secondary" href="#">Popular Object</a></li>
+          <li>
+            <a class="link-secondary head-link" data-link="advantages">About us</a>
+          </li>
+          <li>
+            <a class="link-secondary" href="#">Catalog</a>
+          </li>
+          <li>
+            <a class="link-secondary head-link" data-link="contact">Contacts</a>
+          </li>
+          <li>
+            <a class="link-secondary" href="#">Popular Object</a>
+          </li>
         </ul>
         <div>
           <a class="link-secondary" href="#">Add Property</a>
@@ -34,7 +48,7 @@
         <div class="hero">
           <img src="/asset%202.78e3aae8.svg" alt="hero brand long" class="hero-brand-logo">
         </div>
-        <div class="hero-bottom">
+        <div class="hero-bottom common-template-hero-club common-hero-club">
           <div class="hero-bottom--content" href="#">
             <h2 class="heading-secondary">Luxuray Flats Palo Alto Now</h2>
             <p class="paragraph-secondary hero-para">
@@ -50,11 +64,426 @@
           </div>
         </div>
       </section>
-      <section class="section-advantages">
-        <div class="advantages-info">
-          <p>Our Our advantages</p>
+      <section class="section-advantages" id="advantages">
+        <div class="section-advantages--margin">
+          <div class="advantages-info make-flex">
+            <div class="make-flex gap1 section-adv-marg">
+              <div class="dot-dot"></div>
+              <p class="paragraph-secondary">Our advantages</p>
+            </div>
+            <h3 class="heading-tertiary">
+              We offer an individual approach to each client
+            </h3>
+          </div>
+          <div class="advantages-grid-contents grid grid--3-cols">
+            <div class="gird-colm">
+              <h4 class="heading-secondary">We are visionaries</h4>
+              <p class="paragraph-tertiary section-advan-para">
+                We are visionaries We will tell you everything you need about
+                the market at the moment, but also predict how the cost of
+                housing and your areawill change in a few years
+              </p>
+            </div>
+            <div class="gird-colm">
+              <h4 class="heading-secondary">We are always objective</h4>
+              <p class="paragraph-tertiary section-advan-para">
+                We do not want to sell you any specific object, our goal is to
+                find the “right” apartment for you and remain partners for many
+                years.
+              </p>
+            </div>
+            <div class="gird-colm">
+              <h4 class="heading-secondary">
+                We provide a full range of services
+              </h4>
+              <p class="paragraph-tertiary section-advan-para">
+                We provide a full range of services for the purchase and sale of
+                real estate, from searching for an object and ending with
+                paperwork.
+              </p>
+            </div>
+            <div class="gird-colm">
+              <h4 class="heading-secondary">
+                Let's find your "place of power"
+              </h4>
+              <p class="paragraph-tertiary section-advan-para">
+                The housing should make your life better. Therefore, when
+                selecting real estate, we carefully learn your request and find
+                only what is ideal.
+              </p>
+            </div>
+            <div class="gird-colm">
+              <h4 class="heading-secondary">We are real estate experts</h4>
+              <p class="paragraph-tertiary section-advan-para">
+                We have more than 130 objects in our portfolio, but for you we
+                will make an individual selection with only suitable options.
+              </p>
+            </div>
+            <div class="gird-colm">
+              <h4 class="heading-secondary">We will answer any question</h4>
+              <p class="paragraph-tertiary section-advan-para">
+                Whether it's the legal execution of a transaction, interior
+                design or the technical details of a building, our brokers will
+                tell you everything.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
+      <section class="our-mission container">
+        <div class="our-thoughts">
+          <img src="/asset%205.eac06597.jpeg" class="our-mission--img our-img-1">
+          <img src="/asset%206.ea2488a3.jpeg" class="our-mission--img our-img-2">
+
+          <img src="/asset%207.f22fa9c4.jpeg" class="our-mission--img our-img-3">
+          <div>
+            <h2 class="personalizedh2">
+              Our mission —
+              <br>is to help people acquire a new quality of life
+            </h2>
+          </div>
+          <img src="/asset%209.c38cbd0d.jpeg" class="our-mission--img our-img-4">
+
+          <img src="/asset%208.83767330.jpeg" class="our-mission--img our-img-5">
+        </div>
+      </section>
+      <section class="common-form-section">
+        <div class="form-fill-content">
+          <h2 class="form-fill-h2">
+            We will create a personalized selection for you
+          </h2>
+          <p class="form-fill-p">
+            Tell us about the characteristics of your future apartment, and we
+            will compile a catalog with suitable options for you
+          </p>
+          <form action="submit" class="form-height grid grid--3-cols">
+            <div>
+              <label for="Name" class="form-label">Name</label>
+              <input class="form-input" type="text" placeholder="Answer">
+            </div>
+            <div>
+              <label for="email" class="form-label">Email</label>
+              <input class="form-input" type="email" placeholder="Answer">
+            </div>
+            <div class="form-catalog"><p>Get catalog</p></div>
+          </form>
+        </div>
+      </section>
+      <section class="section-landmark">
+        <div class="brand-header">
+          <div class="make-flex gap1 brand-head-margin">
+            <div class="dot-dot"></div>
+            <p class="paragraph-secondary">Our landmarks</p>
+          </div>
+
+          <h2 class="heading-tertiary">
+            When selecting real estate, we focus
+            <br>
+            on several important characteristics
+          </h2>
+        </div>
+        <div class="landmark-bottom container">
+          <div class="landmark-count grid grid--2-cols">
+            <div class="landmark-left landmark-left-sign">
+              <img src="/asset%2010.ddff2385.png" alt="">
+            </div>
+            <div class="landmark-right">
+              <div>
+                <p class="count">01</p>
+              </div>
+              <div class="count-content">
+                <h2 class="count-heading">Plan</h2>
+                <p class="count-paragraph">
+                  If you have a large family, we will find a spacious apartment
+                  with a large dining area - for joint dinners, and with several
+                  bathrooms so that no one bothers anyone.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="landmark-count grid grid--2-cols">
+            <div class="landmark-left">
+              <img src="/asset%2011.477a836e.jpeg" alt="">
+            </div>
+            <div class="landmark-right">
+              <div>
+                <p class="count">02</p>
+              </div>
+              <div class="count-content">
+                <h2 class="count-heading">Location</h2>
+                <p class="count-paragraph">
+                  We understand that moving to another part of the city is not
+                  always easy. Therefore, if you want to stay in the same area,
+                  we will definitely find suitable real estate options. If they
+                  simply do not exist, we will find a similar location as close
+                  as possible to your area.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="landmark-count grid grid--2-cols">
+            <div class="landmark-left">
+              <img src="/asset%2012.b6361873.jpeg" alt="">
+            </div>
+            <div class="landmark-right">
+              <div>
+                <p class="count">03</p>
+              </div>
+              <div class="count-content">
+                <h2 class="count-heading">Infrastructure</h2>
+                <p class="count-paragraph">
+                  For clients leading a sports lifestyle, we find complexes with
+                  an on-site fitness center and parks nearby for outdoor
+                  jogging. If you have children, we will select a project with a
+                  safe children's infrastructure, with the best schools or
+                  kindergartens nearby.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="landmark-count grid grid--2-cols">
+            <div class="landmark-left">
+              <img src="/asset%2013.fa76a7dc.jpeg" alt="">
+            </div>
+            <div class="landmark-right">
+              <div>
+                <p class="count">04</p>
+              </div>
+              <div class="count-content">
+                <h2 class="count-heading">Life scenarios</h2>
+                <p class="count-paragraph">
+                  Life scripts are habits you don't want to give up. It's the
+                  little things that make our life more enjoyable. For example,
+                  if you had a dream to start every morning with a fragrant
+                  croissant from a French baker - believe us, we will find that
+                  too.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-appropriate">
+        <div class="appropriate-header">
+          <div class="heading-appropriate">
+            <h2 class="heading-tertiary">Select the appropriate property</h2>
+          </div>
+          <div class="apropriate-house container grid grid--2-cols">
+            <div>
+              <div class="img-container">
+                <img src="/asset%2014.d38b9cec.webp" alt="House rain image" class="house-img house-img--1">
+              </div>
+              <p class="heading-secondary text-down-img">House "Rain"</p>
+            </div>
+
+            <div>
+              <div class="img-container">
+                <img src="/asset%2015.f1b9f493.webp" alt="House red village image" class="house-img house-img--2">
+              </div>
+              <p class="heading-secondary text-down-img">House "Red Village"</p>
+            </div>
+          </div>
+          <div class="apropriate-middle-img">
+            <div class="img-container--3">
+              <img src="/asset%2016.1016bf4b.webp" alt="house megapolis" class="house-img house-img--2">
+            </div>
+            <p class="heading-secondary text-down-img">House "Rain"</p>
+          </div>
+          <div class="appropriate-bottom-img container grid grid--3-cols">
+            <div>
+              <div class="img-container">
+                <img src="/asset%2017.7ee46639.webp" alt="house green oasis" class="house-img bottom-house-img">
+              </div>
+              <p class="heading-secondary text-down-img">House "Green oasis"</p>
+            </div>
+            <div>
+              <div class="img-container">
+                <img src="/asset%2018.fc5b7684.webp" alt="house green oasis" class="house-img bottom-house-img">
+              </div>
+              <p class="heading-secondary text-down-img">House "New town"</p>
+            </div>
+            <div>
+              <div class="img-container">
+                <img src="/asset%2019.14e65669.webp" alt="house green oasis" class="house-img bottom-house-img">
+              </div>
+              <p class="heading-secondary text-down-img">House "Depo"</p>
+            </div>
+          </div>
+        </div>
+        <div class="all-object">
+          <div class="form-catalog all-obj-btn">
+            <button>All object</button>
+          </div>
+        </div>
+      </section>
+      <section class="partners">
+        <div class="brand-header">
+          <div class="make-flex gap1 brand-head-margin">
+            <div class="dot-dot"></div>
+            <p class="paragraph-secondary">Partners</p>
+          </div>
+
+          <h2 class="heading-tertiary">
+            We work only with reliable developers
+          </h2>
+        </div>
+
+        <div class="brand-logos">
+          <div class="grid grid--3-cols gap-in-brand">
+            <img src="/asset%2020.b593e1f9.svg" alt="">
+            <img src="/asset%2021.92a8dd42.svg" alt="">
+            <img src="/asset%2022.2b566c99.svg" alt="">
+          </div>
+          <div class="grid grid--3-cols gap-in-brand">
+            <img src="/asset%2023.643336d3.svg" alt="">
+            <img src="/asset%2024.462ae4b2.svg" alt="">
+            <img src="/asset%2025.41757f00.svg" alt="">
+          </div>
+        </div>
+      </section>
+      <section class="real-estate-agent">
+        <div class="brand-header">
+          <div>
+            <div class="make-flex gap1 brand-head-margin">
+              <div class="dot-dot"></div>
+              <p class="paragraph-secondary">Partners</p>
+            </div>
+
+            <h2 class="heading-tertiary">
+              We work only with reliable developers
+            </h2>
+          </div>
+          <div class="grid grid--3-cols happy-costumers">
+            <div>
+              <div class="hpy-img-contain">
+                <img src="/asset%2026.c5ffcc2f.webp" alt=" happy costumer image" class="hpy-costumer-img">
+              </div>
+              <p class="heading-secondary text-down-img">Egor</p>
+              <small class="section-small paragraph-secondary">23 deals completed</small>
+            </div>
+            <div>
+              <div class="hpy-img-contain">
+                <img src="/asset%2027.c27f02de.webp" alt=" happy costumer image" class="hpy-costumer-img">
+              </div>
+              <p class="heading-secondary text-down-img">Sergey</p>
+              <small class="section-small paragraph-secondary">47 deals completed</small>
+            </div>
+            <div>
+              <div class="hpy-img-contain">
+                <img src="/asset%2028.32762e41.webp" alt=" happy costumer image" class="hpy-costumer-img">
+              </div>
+              <p class="heading-secondary text-down-img">Helena</p>
+              <small class="section-small paragraph-secondary">32 deals completed</small>
+            </div>
+            <div>
+              <div class="hpy-img-contain">
+                <img src="/asset%2029.6472082b.webp" alt=" happy costumer image" class="hpy-costumer-img">
+              </div>
+              <p class="heading-secondary text-down-img">Veronica</p>
+              <small class="section-small paragraph-secondary">17 deals completed</small>
+            </div>
+            <div>
+              <div class="hpy-img-contain">
+                <img src="/asset%2030.48813d30.webp" alt=" happy costumer image" class="hpy-costumer-img">
+              </div>
+              <p class="heading-secondary text-down-img">Dmitriy"</p>
+              <small class="section-small paragraph-secondary">34 deals completed</small>
+            </div>
+
+            <div>
+              <div class="hpy-img-contain">
+                <img src="/asset%2031.9ea5f598.webp" alt=" happy costumer image" class="hpy-costumer-img">
+              </div>
+              <p class="heading-secondary text-down-img">Milena</p>
+              <small class="section-small paragraph-secondary">34 deals completed</small>
+            </div>
+          </div>
+          <div class="arrow-real-estate">
+            <button>&rarr;</button>
+          </div>
+        </div>
+      </section>
+      <section class="club-house container">
+        <div class="club-bottom common-template-hero-club common-hero-club">
+          <div class="hero-bottom--content">
+            <h2 class="heading-secondary">Luxuray Flats Palo Alto Now</h2>
+            <p class="paragraph-secondary hero-para">
+              A new premium class residential complex in the prestigious
+              district. The concept of the complex was developed by the
+              well-known bureau Tsimailo, Lyashenko and Partners. The project
+              was presented at the MIPIM exhibition in Cannes.
+            </p>
+
+            <a class="link-secondary" href="#">Learn more
+              <hr class="link-secondary-under hero-link">
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="contact-section" id="contact">
+        <div class="brand-header">
+          <div class="contact-top">
+            <div class="make-flex gap1 brand-head-margin">
+              <div class="dot-dot"></div>
+              <p class="paragraph-secondary">Contact</p>
+            </div>
+
+            <h2 class="heading-tertiary">Together with you we can do more</h2>
+          </div>
+          <div class="grid grid--3-cols contact-grid">
+            <div>
+              <small class="section-small paragraph-secondary contact-small">Office</small>
+              <p class="contact-para">Limassol,</p>
+              <p class="contact-para">Griga Digeni 34 A</p>
+            </div>
+            <div>
+              <small class="section-small paragraph-secondary contact-small">Connection</small>
+              <a href="#" class="contact-para contact-hover">+1 (555) 555-5555</a>
+              <a href="#" class="contact-para contact-hover">hello@radius.com</a>
+            </div>
+            <div>
+              <small class="section-small paragraph-secondary contact-small">34 deals completed</small>
+              <a href="#" class="contact-para contact-hover">Instagram </a>
+              <a href="#" class="contact-para contact-hover">Dribble </a>
+              <a href="#" class="contact-para contact-hover">Behance </a>
+            </div>
+          </div>
+          <div>
+            <p class="link-secondary contact-link">
+              <span class="contact-download"> Download catalog </span>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="bottom-section">
+        <div class="common-form-section">
+          <div class="form-fill-content bottom-form">
+            <h2 class="form-fill-h2">Want to contact Radius?</h2>
+
+            <form action="submit" class="form-height">
+              <div class="bottom-section-bm">
+                <label for="Name" class="form-label">Name</label>
+                <input class="form-input" type="text" placeholder="Answer">
+              </div>
+              <div class="bottom-section-bm">
+                <label for="email" class="form-label">Email</label>
+                <input class="form-input" type="email" placeholder="Answer">
+              </div>
+              <div class="form-catalog"><p>Back call</p></div>
+            </form>
+          </div>
+        </div>
+        <footer class="site-footer grid grid--6-cols">
+          <p>Website by <a href="#">Rocky Mor</a></p>
+          <p>&copy; 2003Radius</p>
+          <p><a href="#">Dribble</a></p>
+          <p><a href="#">Instagram</a></p>
+          <p><a href="#">Linkedin</a></p>
+          <p><a class="head-link" data-link="header">At the top</a></p>
+        </footer>
+      </section>
     </main>
-  <script src="/Radius.3464ddca.js"></script></body>
+
+    <script defer="" src="/index.57dd8f51.js"></script>
+  </body>
 </html>
