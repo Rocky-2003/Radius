@@ -24,4 +24,4 @@ links.forEach((link) => {
 });
 
 // * lazy loading image
-lazyLoading();
+// lazyLoading();
