@@ -72,7 +72,7 @@
 
 .hero-bottom {
   height: 92rem;
-  background-image: url(../img/hero/asset\ 3.webp);
+  background-image: url(../img/hero/asset3.webp);
 }
 
 .hero-bottom--content {
@@ -138,7 +138,7 @@
 }
 .our-thoughts {
   /* position: relative; */
-  background-image: url(../img/our-mission/asset\ 4.svg);
+  background-image: url(../img/our-mission/asset4.svg);
   background-position: center;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -523,7 +523,7 @@
 /* !CLUB HOUSE SECTION */
 /* !-------------------------------- */
 .club-bottom {
-  background-image: url(../img/club-house/asset\ 32.webp);
+  background-image: url(../img/club-house/asset32.webp);
   height: 110rem;
   background-size: auto;
 }

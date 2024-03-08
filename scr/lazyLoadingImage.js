@@ -8,7 +8,7 @@ export default function lazyLoading() {
   const observer = new IntersectionObserver(handleImg, options);
 
   function handleImg(entries, observe) {
-    console.log("rocky");
+    // console.log("rocky");
 
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
@@ -24,11 +24,11 @@ export default function lazyLoading() {
   }
 
   imgs.forEach((img) => {
-    console.log("roc");
+    // console.log("roc");
 
     observer.observe(img);
   });
-  console.log("r");
+  // console.log("r");
 }
 
-lazyLoading();
+// lazyLoading();
